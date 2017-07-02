@@ -1,0 +1,6 @@
+﻿SET IDENTITY_INSERT [dbo].[Makers] ON
+INSERT INTO [dbo].[Makers] ([MakerID], [Name], [website], [Description], [ImageID]) VALUES (3, N'МАССА-К', N'http://www.massa.ru', N'ЗАО «МАССА-К» — крупнейший российский производитель электронной весоизмерительной техники. Производит электронные весы для промышленности, торговли, медицины', null)
+INSERT INTO [dbo].[Makers] ([MakerID], [Name], [website], [Description], [ImageID]) VALUES (2, N'CAS', N'http://www.scale.ru', N'Южнокорейская компания, один из крупнейших в мире производителей электронных весов, индикаторных табло, упаковочного оборудования и многого другого', null)
+INSERT INTO [dbo].[Makers] ([MakerID], [Name], [website], [Description], [ImageID]) VALUES (4, N'OHAUS Corporation', N'http://www.ohaus-cis.ru/', N'OHAUS Corporation – один из ведущих мировых производителей лабораторной и промышленной весовой техники. Компания существует с 1907 г. Сегодня производственные предприятия ОХАУС находятся в Швейцарии, Германии, Китае и США', null)
+INSERT INTO [dbo].[Makers] ([MakerID], [Name], [website], [Description], [ImageID]) VALUES (1, N'Шимадзу', N'https://www.shimadzu.ru/', N'Японская компания «Шимадзу» — один из крупнейших мировых производителей аналитического и испытательного оборудования для лабораторий и диагностического медицинского оборудования.', null)
+SET IDENTITY_INSERT [dbo].[Makers] OFF
